@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Library Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #917254;
+    }
+
+    .navbar {
+      background-color: #f3791c;
+      color: #ffffff;
+    }
+
+    .navbar-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .jumbotron {
+      background: url('https://img.freepik.com/free-photo/large-collection-old-books-wooden-shelves-generated-by-ai_188544-29739.jpg?t=st=1706185185~exp=1706188785~hmac=9bfa9a01f22a63465440931aec9233785f9705794197f0b3628c25dbe8084aca&w=1380') no-repeat center center;
+      background-size: cover;
+      color: #ffffff;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .jumbotron h1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .jumbotron p {
+      font-size: 1.2em;
+    }
+
+    .features {
+      padding: 10px 0;
+    }
+
+    .feature {
+      text-align: center;
+    }
+
+    .feature i {
+      font-size: 3em;
+      color: #007bff;
+    }
+
+    .feature h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .footer {
+      background-color: #874112;
+      color: #ffffff;
+      padding: 5px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .jumbotron {
+        padding: 100px 0;
+      }
+
+      .jumbotron h1 {
+        font-size: 2.5em;
+      }
+
+      .jumbotron p {
+        font-size: 1em;
+      }
+
+      .features {
+        padding: 30px 0;
+      }
+
+      .feature {
+        margin-bottom: 20px;
+      }
+
+      .feature i {
+        font-size: 2em;
+      }
+
+      .feature h2 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">LIBRARY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1>Explore Our Diverse Library Collection</h1>
+    <p>Immerse yourself in a world of literature with our carefully curated library. 
+      From classic novels to contemporary bestsellers, we offer a wide range of genres to cater to every reader's taste. 
+      Our mission is to foster a love for reading and provide a welcoming space for individuals to expand their knowledge.</p>
+  </div>
+
+  <!-- Features -->
+  <div class="container features">
+    <div class="row">
+      <div class="col-md-4 feature">
+        <img src="https://media.npr.org/assets/img/2021/08/13/sheehan-composite_wide-0c6460f15b72664cac3fb7b3eece5dc7ea23a4fd-s1100-c50.png" style="width: 70%;height: 70%;">
+        <h2>Wide Selection</h2>
+        <p>Choose from a diverse range of books covering various genres.</p>
+      </div>
+      <div class="col-md-4 feature">
+        <img src="https://img.freepik.com/free-vector/hand-student-holding-magnifying-glass-studying-books-stack-books-scientific-research-flat-vector-illustration-education-information-concept-banner-website-design-landing-page_74855-24720.jpg?w=1060&t=st=1706186158~exp=1706186758~hmac=de291d03f2282b648e2176cbc37a37399ab46a56b3ef3159ae8964b004166b2f" style="width: 70%;height: 70%;">
+        <h2>Easy Search</h2>
+        <p>Effortlessly find the books you're looking for with our search feature.</p>
+      </div>
+      <div class="col-md-4 feature">
+        <img src="https://img6.arthub.ai/64e95e1e-ace.webp" style="width: 70%;height: 70%;">
+        <h2>Community</h2>
+        <p>Join our community and engage in discussions with fellow book enthusiasts.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>
+      Meerut Library. 
+     
+    <p>
+      Address: MIET COLLEGE, Meerut, India | 
+      Phone: +91 123 456 789 | 
+      Email: info@meerutlibrary.com
+    </p>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
